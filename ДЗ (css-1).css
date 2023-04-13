@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex: row;
+    font-family: sans-serif;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+/* Головные строки */
+.a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.aa {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+/* Главная строка с поиском */
+.b{
+    display: flex;
+    flex-direction: row;
+}
+.ba{
+    display: flex;
+    flex-direction: row;
+    padding: 20px 80px;
+    background-color: #fd930f;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.ba button{
+    background-color: #fd930f;
+    padding: 10px 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.baa{
+    
+}
