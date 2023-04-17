@@ -79,4 +79,54 @@ body {
     width: 30px;
     height: 30px;
 }
-
+.bc{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around;
+}
+.bc div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+}
+.bc div img{
+    width: 35px;
+    height: 35px;
+}
+.c{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ca{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    text-align: start;
+    align-items: start;
+}
+.ca div{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 15px;
+}
+.ca img{
+    width: 25px;
+    height: 25px;
+}
+.cb{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.cba{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
