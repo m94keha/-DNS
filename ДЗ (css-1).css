@@ -125,8 +125,34 @@ body {
     flex-direction: row;
     justify-content: start;
 }
-.cba{
+.c-1{
+    width: 250px;
+    height: 250px;
     display: flex;
     flex-direction: column;
+    justify-content: start;
     text-align: start;
+    background-image: url(c-картинки/смартфон\ и\ подарки.png);
+    background-attachment: local;
+    background-size: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.c-1 > div{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.c-1-K{
+    height: 30px;
+    width: 60px;
+    position: relative;
+    bottom: -13px;
+    left: 10px;
+}
+.c-2-K{
+    height: 30px;
+    width: 90px;
+    position: relative;
+    bottom: 10px;
+    left: 80px;
 }
