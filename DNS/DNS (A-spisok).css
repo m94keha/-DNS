@@ -1,0 +1,28 @@
+.A{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gorod{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    height: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.gorod > img{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 15px;
+    height: 15px;
+    align-items: center;
+}
+.DNS{
+    width: 400px;
+    height: 100px;
+    background-color: #fc8507;
+    border-radius: 15px;
+    overflow: hidden;
+}
